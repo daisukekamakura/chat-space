@@ -22,6 +22,7 @@
 ### Association
 - has_many :users
 - has_many :messages
+
 ## messagesテーブル
 
 |Column|Type|Options|
