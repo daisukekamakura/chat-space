@@ -15,7 +15,7 @@
 
 |Column|Type|Options|
 |------|----|-------|
-|group|string|null: false|
+|name|string|null: false|
 |nickname|string|null: false|
 |user_id|integer|null: false|
 
