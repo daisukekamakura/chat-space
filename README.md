@@ -31,7 +31,7 @@
 |user_id|integer|null: false, foreign_key:true|
 
 ### Association
-- has_many :tweets
+- belongs_to :group
 - belongs_to :user
 
 
