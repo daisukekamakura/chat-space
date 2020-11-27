@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.side-bar {
+  width: 300px;
+  &__user-name {
+    height: 100px;
+    background-color: #253141;
+  }
+  &__group-list {
+    height: calc(100vh - 100px);
+    background-color: #2f3e51;
+  }
+}
