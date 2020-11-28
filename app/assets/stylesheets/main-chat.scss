@@ -5,6 +5,36 @@
     background-color: #ffffff;
     height: 100px;
     border-bottom: 1px solid#eeeeee;
+    display: flex;
+    justify-content: space-between;
+    .group-desc {
+      &__group-name {
+        color: #333333;
+        padding: 35px 0 15px 40px;
+        font-size: 20px;
+      }
+      &__user-name {
+        color: #999999;
+        font-size: 12px;
+        padding: 0 0 0 40px;
+      }
+    }
+    .edit {
+      width: 72px;
+      height: 40px;
+      font-size: 16px;
+      
+      padding: 0 20px;
+      border: 1px solid #38aef0;
+      margin: 28px 40px 0 0;
+      display: flex;
+      align-items: center;
+      
+      &__btn {
+        color: #38aef0;
+        text-decoration: none;
+      }
+    }
   }
   &__message-list {
     background-color: #fafafa;
@@ -15,3 +45,4 @@
     height: 90px;
   }
 }
+
