@@ -35,9 +35,22 @@
     &--icon {
       color: #ffffff;
       padding: 0 0 0 5px;
-      
     }
-
-  }
-      
+  }     
 }
+
+.group-items {
+  height: 91px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+      &__name {
+        margin: 20px 0 5px 0;
+        font-size: 15px;
+      }
+      &__message {
+        font-size: 11px;
+        margin-bottom: 40px;
+      }
+    }
