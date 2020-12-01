@@ -24,3 +24,10 @@
     .messaage
       おはよう
   .main-chat__message-form
+    %form.form
+      .form__box
+        %input.form__box--text{"placeholder": "type a message", "type": "text"}
+        %label{class: "form__box--image"}
+          = icon('fas', 'image')
+          %input{type: "file"}
+      %input.form__btn{"name": "commit", "type": "submit", "value": "Send"}

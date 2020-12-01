@@ -44,6 +44,7 @@
   &__message-form {
     background-color: #d2d2d2;
     height: 90px;
+    padding: 20px 40px;
   }
 }
 
@@ -65,4 +66,33 @@
   color: #434A54;
   font-size: 14px;
   padding-bottom: 46px;
+}
+
+.form {
+  display: flex;
+  &__box {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    &--text {
+      height: 50px;
+      width: 100%;
+    }
+    &--image {
+      position: absolute;
+      right: 10px;
+      input {
+        display: none;
+      }
+    }
+  }
+  &__btn {
+    height: 50px;
+    color: #fff;
+    background-color: #38aef0;
+    font-size: 16px;
+    padding: 0 30px;
+    margin-left: 15px;
+  }
 }
