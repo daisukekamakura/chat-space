@@ -10,8 +10,10 @@
           = icon('fas', 'cog', class: "top-items__icons--icon")
     
   .side-bar__group-list
-    .group-items
-      .group-items__name
-        techcamp
-      .group-items__message
-        まだメッセージがありません
+    - current_user.groups.each do |group|
+      .group-items
+        = link_to '#' do
+          .group-items__name
+            = group.name
+          .group-items__message
+            まだメッセージがありません
